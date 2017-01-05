@@ -1,0 +1,44 @@
+A = input()
+B = input()
+C = input()
+
+val = A*B*C
+
+val_str = str(val)
+
+a1,a2,a3,a4,a5,a6,a7,a8,a9,a0 = 0
+i=0
+
+while i < len(val_str):
+	if val_str[i] == 0:
+		a0+=1
+	elif val_str[i] == 1:
+		a1+=1	
+	elif val_str[i] == 2:
+		a2+=1	
+	elif val_str[i] == 3:
+		a3+=1	
+	elif val_str[i] == 4:
+		a4+=1	
+	elif val_str[i] == 5:
+		a5+=1	
+	elif val_str[i] == 6:
+		a6+=1	
+	elif val_str[i] == 7:
+		a7+=1	
+	elif val_str[i] == 8:
+		a8+=1	
+	elif val_str[i] == 9:
+		a9+=1	
+	i= i+1	
+	  
+print a0
+print a1
+print a2
+print a3
+print a4
+print a5
+print a6
+print a7
+print a8
+print a9
